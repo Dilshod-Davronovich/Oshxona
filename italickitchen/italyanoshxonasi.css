@@ -1,0 +1,82 @@
+body{
+    background-image: url();
+    background-image: url(https://cdn.pixabay.com/photo/2017/10/22/21/02/food-2879265_1280.jpg);
+    background-size: 100%;
+}
+@font-face {
+    font-family: 'veg';
+    src: url(VEGETABLES.ttf);
+}
+h1{
+    font-family: 'veg';
+    text-align:center;
+}
+.asosiy{
+    display: flex;
+    width: 100%;
+    height: 700px;
+}
+@font-face {
+    font-family: 'dramma';
+    src: url(White\ Festive_demo.otf);
+}
+.narx{
+    width: 40%;
+    height: 600px;
+    text-align: center;
+    font-family: 'dramma';
+    font-weight: 900;
+    font-size: 20px;
+    
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 600px;
+}
+.menyu1{
+     display: flex;
+     justify-content: space-evenly;
+     width: 90%;
+     height: 200px;
+}
+.menyu2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 200px;
+}
+.menyu3{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 200px;
+}
+.taom{
+    width: 20%;
+    height: 150px;
+}
+@font-face {
+    font-family: 'oq';
+    src: url(Rantika.ttf);
+}
+.tasma{
+    width: 150px;
+    height: 30px;
+    border: 1px solid #000;
+    background-color: yellow;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'oq';
+    font-size: 30px;
+}
+img{
+    width: 150px;
+    height: 100px;
+    border-radius: 50% 50%;
+    border: 2px solid yellow;
+}
+h3::before{
+    content: "🍽️";
+}
