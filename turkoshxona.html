@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="turkoshxona.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Are+You+Serious&display=swap');
+    </style>
+<body>
+    <h1 class="bola">Bu turk taomlarining asosiy menyusi:</h1>
+    <div class="container">
+      <div class="card">
+        <img src="Turk-img/a.jfif" alt="Ovqat rasmi">
+        <h3>Revani</h3>
+        <p>20 000 so'm</p>
+    </div><div class="card">
+      <img src="Turk-img/do'lma.jfif" alt="Ovqat rasmi">
+      <h3>Güllaç</h3>
+        <p>40 000 so'm</p>
+  </div><div class="card">
+    <img src="Turk-img/h.jfif" alt="Ovqat rasmi">
+    <h3>Sütlaç</h3>
+        <p>25 000 so'm</p>
+</div><div class="card">
+  <img src="Turk-img/images (1).jfif" alt="Ovqat rasmi">
+  <h3>Lokum</h3>
+        <p>15 000 so'm</p>
+</div><div class="card">
+  <img src="Turk-img/s.jfif" alt="Ovqat rasmi">
+  <h3>Kazandibi</h3>
+        <p>30 000 so'm</p>
+</div><div class="card">
+  <img src="Turk-img/k.jfif" alt="Ovqat rasmi">
+  <h3>Meze Platter</h3>
+        <p>35 000 so'm</p>
+</div><div class="card">
+  <img src="Turk-img/images (2).jfif" alt="Ovqat rasmi">
+      <h3>Kuru Fasulye</h3>
+      <p>25 000 so'm</p>
+</div><div class="card">
+  <img src="Turk-img/images (3).jfif" alt="Ovqat rasmi">
+  <h3>Künefe</h3>
+        <p>45 000 so'm</p>
+</div>
+    </div>
+    <h2 class="bola">Bu turk shirinliklaridan bir parcha:</h2>
+    <div class="container">
+      <div class="card">
+        <img src="Turk-img/Без названия (1).jfif" alt="Ovqat rasmi">
+        <h3>Shirinlik</h3>
+        <p>25 000 so'm</p>
+    </div>
+    <div class="card">
+      <img src="Turk-img/Без названия (2).jfif" alt="Ovqat rasmi">
+      <h3>Adana Kebap</h3>
+        <p>50 000 so'm</p>
+  </div>
+        <div class="card">
+          <img src="Turk-img/ovqat.jfif" alt="Ovqat rasmi">
+          <h3>Lahmacun</h3>
+        <p>20 000 so'm</p>
+      </div>
+        <div class="card">
+          <img src="Turk-img/Без названия (5).jfif" alt="Ovqat rasmi">
+          <h3>Pide</h3>
+        <p>30 000 so'm</p>
+      </div>
+    </div>
+    <style>
+      .card {
+          width: 300px;
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          overflow: hidden;
+          text-align: center;
+          font-family: Arial, sans-serif;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+          box-shadow: 0 4px 8px yellow ;
+          margin: 20px auto;
+      }
+      .card img {
+          width: 100%;
+          height: auto;
+      }
+      .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px yellow (193, 214, 54, 0.2);
+        }
+
+        .card:hover img {
+            transform: scale(1.05);
+        }
+      .card h3 {
+          margin: 10px 0;
+          font-size: 1.2em;
+      }
+      .card p {
+          color: #555;
+          margin-bottom: 10px;
+      }
+  </style>
+    <nav>
+        <h1>Buyurtma qilish</h1>
+        <div class="container1">
+            <a href="#">ovqat</a>
+            <a href="#">Shirinlik</a>
+            <button><a href="joy.html">joy bron qilish</a></button>
+        </div>
+    </nav>
+    <button id="chatButton" onclick="openChat()"><div class="bolakay">Bosh oshpaz bilan bog'lanish</div></button>
+
+<!-- Chat oynasi -->
+<div id="chatWindow" class="chat-window">
+  <div class="chat-header">
+    <span>Chat</span>
+    <button class="close-chat" onclick="closeChat()">X</button>
+  </div>
+  <div class="chat-body">
+    <div id="chatMessages"></div>
+    <input type="text" id="chatInput" placeholder="Savolingizni yozing..." />
+    <button onclick="sendMessage()">Yuborish</button>
+  </div>
+</div>
+
+<script>
+  function openChat() {
+    document.getElementById("chatWindow").style.display = "block";
+  }
+
+  function closeChat() {
+    document.getElementById("chatWindow").style.display = "none";
+  }
+
+  function sendMessage() {
+    var input = document.getElementById("chatInput").value;
+    if (input) {
+      var message = document.createElement("div");
+      message.textContent = "Siz: " + input;
+      document.getElementById("chatMessages").appendChild(message);
+      document.getElementById("chatInput").value = "";
+    }
+  }
+</script>
+            <footer>
+                <h3>Yaratuvchi</h3>
+                <p> 2024 Taomlar. Hasan Isomiddinov Tomonidan yaratildi</p>
+                <p>GitHub profil: <a href="https://github.com/HasanIsomiddinov" target="_blank">My GitHub</a></p>
+            </footer>
+            <!-- Modal bo'limi -->
+<div class="intro-modal">
+    <div class="modal-content">
+        <h1>Xush Kelibsiz!</h1>
+        <p>Hasan Isomiddinovning "Turk oshxonasi" menyusiga qadam qo'ying!</p>
+        <button id="enter-button">Saytga Kirish</button>
+    </div>
+</div>
+<script>
+    document.getElementById('enter-button').addEventListener('click', function () {
+        document.querySelector('.intro-modal').style.display = 'none';
+    });
+</script>
+
+</body>
+</html>
