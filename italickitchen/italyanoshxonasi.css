@@ -5,7 +5,7 @@ body{
 }
 @font-face {
     font-family: 'veg';
-    src: url(VEGETABLES.ttf);
+    src: url(italian-img/VEGETABLES.ttf);
 }
 h1{
     font-family: 'veg';
@@ -18,7 +18,7 @@ h1{
 }
 @font-face {
     font-family: 'dramma';
-    src: url(White\ Festive_demo.otf);
+    src: url(italian-img/White\ Festive\ bold_italic.otf);
 }
 .narx{
     width: 40%;
@@ -59,7 +59,7 @@ h1{
 }
 @font-face {
     font-family: 'oq';
-    src: url(Rantika.ttf);
+    src: url(italian-img/Rantika.ttf);
 }
 .tasma{
     width: 150px;
